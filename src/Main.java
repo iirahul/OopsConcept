@@ -11,6 +11,8 @@ public class Main {
         ol.show();
         PolymorphismtMethodOverloading ola = new PolymorphismtMethodOverloading();
         ola.show();
+        Car cr = new Car();
+        cr.show();
 
 
 
