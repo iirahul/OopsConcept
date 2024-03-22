@@ -3,14 +3,22 @@
 public class Main {
 
     public static void main(String[] args){
-        SecondaryClass sc = new SecondaryClass();
-        InheritRefObj pr = new InheritRefObj();
+        PolymorphismtMethodOverloading pl = new PolymorphismtMethodOverloading();
+        pl.show();
+        pl.show(1);
+        pl.show(99.1);
+        PolymorphismMethodOverriding ol =new PolymorphismMethodOverriding();
+        ol.show();
+        PolymorphismtMethodOverloading ola = new PolymorphismtMethodOverloading();
+        ola.show();
 
-       pr.show();
-       sc.show();
 
 
-        }
+
+
+
+
+    }
 
 
 
