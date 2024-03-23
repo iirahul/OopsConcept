@@ -11,8 +11,14 @@ public class Main {
         ol.show();
         PolymorphismtMethodOverloading ola = new PolymorphismtMethodOverloading();
         ola.show();
-        Car cr = new Car();
+        Swift cr = new Swift();
         cr.show();
+        AbstractClass ab = new Swift();
+        AbstractClass bc = new Thar();
+        ab.motor();
+        ab.shape();
+        bc.shape();
+        bc.motor();
 
 
 

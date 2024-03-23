@@ -1,5 +1,5 @@
 public class Veichle {
-    public Veichle(int a){
+    public Veichle(){
         System.out.println("Driving a Veichle");
     }
     public void show(){
@@ -9,7 +9,7 @@ public class Veichle {
 
  class Car extends Veichle{
     public Car(){
-        super(10);
+        super(); //can not place anywhere else aprt from first line
         System.out.println("Drving a Car");
     }
     public void show(){
