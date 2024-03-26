@@ -29,6 +29,17 @@ public class Main {
         sh.getRadius(5);
         System.out.println("Area = "+sh.area());
         System.out.println("Peeri = "+sh.perimeter());
+        ThisDemo td = new ThisDemo();
+        ThisKeyword rr = new ThisKeyword();
+        ThisKeyword th = new ThisKeyword(rr);
+
+
+        td.display(th);
+        MyClass mc = new MyClass();
+        mc.setValue(2);
+        System.out.println("this is value "+ mc.setValue(2));
+
+
 
 
 
