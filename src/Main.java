@@ -38,6 +38,17 @@ public class Main {
         MyClass mc = new MyClass();
         mc.setValue(2);
         System.out.println("this is value "+ mc.setValue(2));
+        StaticKeyWord st =new StaticKeyWord(1,"Rahul");
+        st.display();
+        StaticKeyWord st1 =new StaticKeyWord(2,"Shiva");
+        st1.display();
+
+        StaticCount sc1 = new StaticCount();
+        StaticCount sc2 = new StaticCount();
+        StaticCount sc3 = new StaticCount();
+        sc1.printValueOfRollNo();
+        sc2.printValueOfRollNo();
+        sc3.printValueOfRollNo();
 
 
 
